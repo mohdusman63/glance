@@ -1,0 +1,34 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+long long int digitSum(long long int n){
+    if(n==0)
+  return 0;
+  else
+  return n%10+digitSum(n/10);
+}
+
+int main() {
+    string s,s1;
+    int i,k;
+     long long int twodigit,twodigit1=10,j,z;
+    cin>>s;cin>>k;s1=s;
+    for(i=1;i<k;i++) s1=s1+s;
+    j= stoll(s1);
+    cout<<"j is "<<j<<endl;
+     z= digitSum(j);
+     cout<<"z  is "<<z<<endl;
+    if(z>9){
+      twodigit1=digitSum(z)
+      cout<<"twodigit1"<<twodigit1;
+      
+         
+       }
+   else{
+    cout<<"z else"<<z<<endl;
+}
+ 
+    
+
+    return 0;
+}
