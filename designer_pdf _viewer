@@ -1,0 +1,13 @@
+/ Complete the designerPdfViewer function below.
+function designerPdfViewer(h, word) {
+    let arr =[]
+for(let i=0;i<word.length;i++){
+let value=word.charCodeAt(i)-97
+let hvalue=h[value]
+arr.push(hvalue)
+}
+let max=Math.max(...arr)
+return (arr.length*max)
+
+
+}
