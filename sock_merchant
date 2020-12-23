@@ -1,5 +1,6 @@
 
-https://www.hackerrank.com/challenges/sock-merchant/problem
+//https://www.hackerrank.com/challenges/sock-merchant/problem
+// Complete the sockMerchant function below.v
 
 function sockMerchant(n, ar) {
     let min= Math.min(...ar)    
