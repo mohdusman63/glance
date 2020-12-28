@@ -1,0 +1,12 @@
+//https://www.hackerrank.com/challenges/the-hurdle-race/problem
+// Complete the hurdleRace function below.
+function hurdleRace(k, height) {
+    let dose
+    let max=Math.max(...height)
+    if(k>max)
+    return 0
+    else{
+     dose=max-k
+    return dose
+   }
+}
