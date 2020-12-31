@@ -13,6 +13,8 @@ class Dog extends Animal{
 
   }
   speak(){
+     super.speak()
+      super.speak()
      console.log(`${this.sound} is ${this.name} generic sound`);
   }
 }
