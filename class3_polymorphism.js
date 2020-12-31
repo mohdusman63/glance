@@ -9,11 +9,12 @@ class Animal{
 class Dog extends Animal{
   constructor(name,sound){
     super(name);
+    super.speak()
     this.sound=sound
 
   }
   speak(){
-     super.speak()
+     
       super.speak()
      console.log(`${this.sound} is ${this.name} generic sound`);
   }
