@@ -18,3 +18,18 @@ console.log(square.calcArea); // 100
 console.log(poly.calcArea); //2
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+
+
+class Area{
+  constructor(length,width){
+    this.length=length;
+    this.width=width;
+  }
+   rectangle(){
+    return this.length*this.width;
+
+  }
+ 
+}
+let n=new Area(3,2);
+  console.log(n.rectangle());
