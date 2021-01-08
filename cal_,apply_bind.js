@@ -25,3 +25,19 @@ bindd();
 	 
 	 //call,apply, method is directly invoked 
 	 //bind return a function 
+
+
+//call method
+let Person1={
+  firstName:'usman',
+  lastName:'ali',
+  fullName:function(){
+       console.log(this.firstName,this.lastName)
+  }
+}
+let Person2={
+   firstName:'usman',
+  lastName:'ali',
+
+}
+Person1.fullName.call(Person2)
