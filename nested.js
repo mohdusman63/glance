@@ -12,7 +12,7 @@ router.post("/test", async (req, res) => {
 });
 router.post("/fetchingMessage", async (req, res) => {
   try {
-    let get = await Test.find({}, { message: 1 });
+    let get = await Test.find({}, { message: 1 });  //{ message.text: 1 }
     console.log(get);
     res.json(get);
   } catch (e) {}
