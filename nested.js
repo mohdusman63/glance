@@ -37,3 +37,21 @@ const UserSchema = mongoose.Schema({
 });
 const userModel = mongoose.model("testings", UserSchema);
 module.exports = userModel;
+
+{
+"email":"usman@123",
+"username":"usman",
+"message":[
+    {
+    "user_id":"12",
+     "text":"sasdsad"    
+    },
+     {
+    "user_id":"12",
+     "text":"sasdsad"    
+    }
+  
+    
+]
+
+}
